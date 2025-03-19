@@ -54,12 +54,13 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive and responsive mobile and web applications using Flutter"
     ),
-    emoji("⚡ Build dynamic UI/UX designs with Flutter's rich widget ecosystem"),
+    emoji(
+      "⚡ Build dynamic UI/UX designs with Flutter's rich widget ecosystem"
+    ),
     emoji(
       "⚡ Integration of third-party services such as Firebase, AWS, and REST APIs"
     )
   ],
-
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -104,7 +105,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Firebase Cloud Messaging",
       fontAwesomeClassname: "fas fa-bell"
-    },
+    }
     // {
     //   skillName: "AWS",
     //   fontAwesomeClassname: "fab fa-aws"
@@ -116,7 +117,6 @@ https://fontawesome.com/icons?d=gallery */
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Education Section
 
@@ -138,7 +138,7 @@ const educationInfo = {
       schoolName: "Maharshi Dayanand University",
       logo: require("./assets/images/Maharshi_Dayanand_University_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2020 - April 2024",
+      duration: "September 2020 - April 2024"
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -223,7 +223,8 @@ const bigProjects = {
     {
       image: require("./assets/images/yamarkets_app.webp"),
       projectName: "Yamarkets Academy",
-      projectDesc: "An education hub for traders and investors to learn and grow in the financial markets.",
+      projectDesc:
+        "An education hub for traders and investors to learn and grow in the financial markets.",
       footerLink: [
         {
           name: "Visit App",
@@ -235,7 +236,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo-dark.png"),
       projectName: "FxCareers App",
-      projectDesc: "FXCareers provides a versatile learning environment that caters to the diverse needs of aspiring traders.",
+      projectDesc:
+        "FXCareers provides a versatile learning environment that caters to the diverse needs of aspiring traders.",
       footerLink: [
         {
           name: "Visit App",
@@ -254,7 +256,6 @@ const achievementSection = {
   // title: emoji("Achievements And Certifications 🏆 "),
   // subtitle:
   //   "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   // achievementsCards: [
   //   {
   //     title: "Google Code-In Finalist",
@@ -290,7 +291,6 @@ const achievementSection = {
   //       }
   //     ]
   //   },
-
   //   {
   //     title: "PWA Web App Developer",
   //     subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -339,7 +339,6 @@ const talkSection = {
   // subtitle: emoji(
   //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   // ),
-
   // talks: [
   //   {
   //     title: "Build Actions For Google Assistant",
@@ -356,7 +355,6 @@ const talkSection = {
 const podcastSection = {
   // title: emoji("Podcast 🎙️"),
   // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
   // // Please Provide with Your Podcast embeded Link
   // podcast: [
   //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
